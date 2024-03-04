@@ -1,0 +1,37 @@
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* .home_container{
+
+} */
+.para{
+    margin-top: -70px;
+    padding: 4px;
+    color: black;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.span{
+    color: rgb(15, 130, 180);
+    text-decoration: underline;
+}
+
+.home_image{
+    width: 100%;  
+    z-index: -1; 
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
